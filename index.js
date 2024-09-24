@@ -22,7 +22,7 @@ function contact(event) {
         .catch(() => {
             loading.classList.remove("modal__overlay--visible");
             alert(
-                "the email service is temporarily unavailable. Please contact me at my email: austinjpoulsen@gmail.com Thank you!"
-            )
+                "the email service is temporarily unavailable. Please contact me directly at: austinjpoulsen@gmail.com Thank you!"
+            );
         })
 }
